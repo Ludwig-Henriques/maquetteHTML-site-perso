@@ -148,3 +148,63 @@ section h3::after {
     /* text-shadow: 1px 1px 1px black; */
 }
 
+/* TARIFS */
+
+#tarifs .card {
+  border: none;
+}
+
+#tarifs .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#tarifs h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3em;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+#tarifs .card-price {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+
+#tarifs h4:after,
+#tarifs .card-price:after {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 3px;
+  background-color: #D9B310;
+  bottom: -15px;
+  left: calc(50% - 12.5%);
+}
+
+#tarifs .card-price-text {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+#tarifs .card-price-amount {
+  font-size: 3em;
+  font-weight: 600;
+  color: #0B3C5D;
+  line-height: 1;
+}
+
+#tarifs .card-price-amount sup {
+  font-size: 0.5em;
+  font-weight: 300;
+}
+
+#tarifs .card-price-detail .row-alt {
+  background-color: #0b3c5d15;
+}
+
