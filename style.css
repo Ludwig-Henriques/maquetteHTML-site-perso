@@ -208,3 +208,19 @@ section h3::after {
   background-color: #0b3c5d15;
 }
 
+#tarifs li.row {
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 0.8em;
+}
+
+#tarifs li .col-icon {
+  padding: 0 10px;
+  text-align: center;
+}
+
+#tarifs li .col-libelle {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
