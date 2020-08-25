@@ -44,6 +44,10 @@ section h3::after {
   left: calc(50% - 50px);
 }
 
+.blue {
+  color: #0069d6;
+}
+
 /* NAVBAR */
 
 #navbar-home {
@@ -212,6 +216,7 @@ section h3::after {
   margin-right: 0;
   margin-left: 0;
   font-size: 0.8em;
+  padding: 0.5em 0;
 }
 
 #tarifs li .col-icon {
@@ -224,3 +229,43 @@ section h3::after {
   padding-right: 10px;
 }
 
+
+/* Contact */
+
+#contact h4 {
+  position: relative;
+}
+
+#contact h4:after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #D9B310;
+  bottom: -10px;
+  left: 0;
+}
+
+#contact .contact-informations-list .contact-informations-item {
+  padding: 1em 0;
+}
+
+#contact .contact-informations-list .contact-informations-item:not(:last-child) {
+  border-bottom: 1px solid #D9B310;
+}
+
+#contact .contact-informations-list .contact-informations-phone a {
+  color: #D9B310
+}
+
+#contact .btn-submit-contact {
+  background-color: #1D2731;
+  border: 1px solid #1D2731;
+  color: #D9B310;
+}
+
+#contact .btn-submit-contact:hover {
+  background-color: #D9B310;
+  border: 1px solid #D9B310;
+  color: #fff;
+}
