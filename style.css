@@ -156,6 +156,7 @@ section h3::after {
 
 #tarifs .card {
   border: none;
+  text-align: center;
 }
 
 #tarifs .card-body {
@@ -208,6 +209,10 @@ section h3::after {
   font-weight: 300;
 }
 
+#tarifs .card-price-detail{
+  text-align: left;
+}
+
 #tarifs .card-price-detail .row-alt {
   background-color: #0b3c5d15;
 }
@@ -229,6 +234,16 @@ section h3::after {
   padding-right: 10px;
 }
 
+.btn-contact-link {
+  margin-top: 1rem;
+  background-color: #D9B310;
+  font-weight: 500;
+}
+
+.btn-contact-link:hover {
+  background-color: #0B3C5D;
+  color: #fff;
+}
 
 /* Contact */
 
@@ -268,4 +283,58 @@ section h3::after {
   background-color: #D9B310;
   border: 1px solid #D9B310;
   color: #fff;
+}
+
+/* FOOTER */
+
+footer
+{
+    background-color: #1D2731;
+    padding: 0px 0 20px 0;
+}
+
+footer .fas
+{
+    font-size: 25px;
+    margin: 20px ;
+    color: #D9B310;
+    height: 30px;
+}
+
+footer .fas:hover
+{
+    font-size: 27px;
+}
+
+footer h5
+{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+#social-icons a
+{
+    display: inline-block;
+    line-height: 1px;
+    padding: 0px 10px;
+}
+
+#social-icons i
+{
+    font-size: 22px;
+    color: #fff;
+    transition: all 0.3s ease-in 0s;
+}
+
+#social-icons i:hover
+{
+    color: #D9B310;
+}
+
+.git-hub
+{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
 }
