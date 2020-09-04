@@ -338,3 +338,22 @@ footer h5
     border-right: 1px solid #fff;
     border-left: 1px solid #fff;
 }
+
+footer .fa-chevron-up.animate__slideInUpCustom {
+  animation-name: slideInUpCustom;
+}
+
+
+@keyframes slideInUpCustom {
+  0% {
+    -webkit-transform: translate3d(0,50%,0);
+    transform: translate3d(0,50%,0);
+    visibility: visible;
+  }
+
+  100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+  }
+}
+
